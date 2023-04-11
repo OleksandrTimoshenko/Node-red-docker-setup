@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  node-red:
+    image: nodered_local
+    build: 
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: secure_nodered
+    env_file:
+      - ./node-red.env
+    ports:
+      - "1880:1880"
+    volumes:
+      - node-red-data:/data
+    environment:
+      NODE_RED_ENABLE_SAFE_MODE: "true"
+
+volumes:
+  node-red-data:
