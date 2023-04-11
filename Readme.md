@@ -34,5 +34,13 @@ docker-compose down && docker-compose up -d
 ```
 
 ## Arduino module install
-[Module](https://nodered.org/docs/faq/interacting-with-arduino)
-[Example](https://www.youtube.com/watch?v=ryEFNy1E_LU)
+[Module](https://nodered.org/docs/faq/interacting-with-arduino)  
+[Example](https://www.youtube.com/watch?v=ryEFNy1E_LU)  
+
+## Arduino + AWS IOT + Node Red connect
+1. Connect Arduino to AWS IOT device [link](https://www.youtube.com/watch?v=idf-gGXvIu4)  
+2. Connect local (or not local) Node Red with IOT device in AWS [link](https://www.youtube.com/watch?v=xhRlh61xUqE)  
+
+## Another usefull links
+Connect Arduino to local Node Red [link](https://www.ee-diary.com/2022/07/node-red-with-arduino-simple-example.html)  
+Usefull [channel](https://www.youtube.com/watch?v=xhRlh61xUqE)   
