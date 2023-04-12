@@ -43,4 +43,4 @@ docker-compose down && docker-compose up -d
 
 ## Another usefull links
 Connect Arduino to local Node Red [link](https://www.ee-diary.com/2022/07/node-red-with-arduino-simple-example.html)  
-Usefull [channel](https://www.youtube.com/watch?v=xhRlh61xUqE)   
+Usefull [channel](https://www.youtube.com/@SteveOnIoT)   
